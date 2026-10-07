@@ -1,0 +1,6 @@
+
+
+ip        181.13.189.233
+user      cibertre_db_user
+password  5WRfThglRJdRicEu
+string    mongodb+srv://cibertre_db_user:5WRfThglRJdRicEu@cluster0.wkpt53h.mongodb.net/?appName=cluster0
