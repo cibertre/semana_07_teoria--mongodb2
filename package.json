@@ -14,8 +14,9 @@
  "lint": "eslint src scripts",
  "check": "npm run format:check && npm run lint",
  "comprobardb": "node --env-file=.env scripts/comprobar-conexion.js",
- "validar": "node --env-file=.env scripts/validar-producto.js"
-
+ "validar": "node --env-file=.env scripts/validar-producto.js",
+ "crear": "node --env-file=.env scripts/crear-producto.js",
+ "listar": "node --env-file=.env scripts/listar-productos.js"
  },
  "dependencies": {
  "ejs": "^3.1.10",

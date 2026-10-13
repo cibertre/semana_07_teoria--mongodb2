@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const {
     conectarBaseDatos,
     desconectarBaseDatos,
@@ -11,7 +13,9 @@ async function main () {
     }
 }
 main ().catch((error) => {
-    console.error("No se pudo completar la conexión con MongoDB:", error.name);
+    //console.error("No se pudo completar la conexión con MongoDB:", error.name);
+    console.error("No se pudo completar la conexión con MongoDB:");
+    console.error(error);
     const codigosDns = [
         "ECONNREFUSED",
         "ENOTFOUND",
